@@ -23,6 +23,7 @@ render(){
                     <AuthenticatedRoute path="/todos" component={ListTodosComponent}/>
                     <AuthenticatedRoute path="/logout" component={LogoutComponent}/>
                     <Route path="" exact component={ErrorComponent}/>
+                    
                 </Switch>
                 <FooterComponent/>
             </Router>
