@@ -4,8 +4,8 @@ import "./Counter.css";
 
 class Counter extends Component{
 
-  constructor(){
-    super(); //if we dont call super it will throw an error
+  constructor(props){
+    super(props); //if we dont call super it will throw an error
    
     this.state={
         counter:0 // has a state representing counter  -- like instance variable data
@@ -63,8 +63,8 @@ class CounterButtons extends Component{
     //best practices:
     //1.define an initial state in constructor
 
-    constructor(){
-        super(); //if we dont call super it will throw an error
+    // constructor(){
+    //     super(); //if we dont call super it will throw an error
        
       //   this.state={
       //       counter:0
@@ -72,7 +72,7 @@ class CounterButtons extends Component{
 
       //  this.increment = this.increment.bind(this)
       //  this.decrement = this.decrement.bind(this)
-    }
+    // }
 
    render(){
     return(

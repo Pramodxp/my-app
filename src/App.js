@@ -1,11 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import { Component } from 'react';
-import FirstComponent,{SecondComponent} from './components/learningExamples/FirstComponent';
-import ThirdComponent, {FourthComponent} from './components/learningExamples/ThirdComponent';
+// import FirstComponent,{SecondComponent} from './components/learningExamples/FirstComponent';
+// import ThirdComponent, {FourthComponent} from './components/learningExamples/ThirdComponent';
 import TodoApp from './components/learningExamples/todo/TodoApp'
-import { render } from 'react-dom';
-import Counter from './components/learningExamples/CounterComponents/Counter';
 import './bootstrap.css'
 
 
@@ -18,17 +14,17 @@ function App() {
   );
 }
 
-function LearningComponent() {
-  return (
-    <div className="App">
-     Hi this is my first java-script react application.
-    <FirstComponent/>
-    <SecondComponent/>
-    <ThirdComponent/>
-    <FourthComponent/>
-    </div>
-  );
-}
+// function LearningComponent() {
+//   return (
+//     <div className="App">
+//      Hi this is my first java-script react application.
+//     <FirstComponent/>
+//     <SecondComponent/>
+//     <ThirdComponent/>
+//     <FourthComponent/>
+//     </div>
+//   );
+// }
 
 
 // we are creating class component, to create, it must extend Component class and must Override or Implemet render() method/Function.
